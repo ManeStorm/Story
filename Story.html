@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="pig.css">
+</head>
+<body>
+	<form action="" name="nameForm" id="idForm">
+		<label for="nameInput">Εισαγάγετε το όνομά σας</label>
+		<br>
+		<input type="text" name="nameInput"/>
+	    <br>
+	    <p><input type="radio" value="Λουκάνικα" name="tag2">
+		<label for="Σημείο2">Λουκάνικα</label></p>
+	
+		<p><input type="radio" value="Κοτολέτες" name="tag2">
+		<label for="Σημείο2">Κοτολέτες</label></p>
+	
+		<p><input type="radio" value="Μακαρόνια" name="tag2">
+		<label for="Σημείο2">Μακαρόνια</label></p>
+
+		<label for="nameInput2">Εισαγάγετε τον αριθμό</label>
+		<br>
+		<input type="text" name="nameInput2"/>
+	    <br>
+
+		<p><input type="radio" value="Μουστάκι" name="tag3">
+		<label for="Σημείο">Μουστάκι</label></p>
+	
+		<p><input type="radio" value="Στόμα" name="tag3">
+		<label for="Σημείο">Στόμα</label></p>
+	
+		<p><input type="radio" value="Ουρά" name="tag3">
+		<label for="Σημείο">Ουρά</label></p>
+
+		<input type="button" name="but2" onclick="submitAction(getElementById('idForm'))" value="Δημιουργήστε"/>
+	</form>
+
+	
+	<div>
+		Однажды <div id="story">__</div> захотел спать, но он увидел <div id="Σημείο2">__</div> .Он испугался и начал убегать, но запнулся об <div id="Σημείο">__</div> и умер, ведь ему <div id="story2">__</div>.
+	</div>
+
+	<script type="text/javascript" src="pig.js"></script>
+</body>
+</html>
